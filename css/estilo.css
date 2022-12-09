@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "MADE TOMMY"
+    url("made_tommy/MADETOMMY.otf")
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+#div1{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 4vh;
+	margin-right: 4vh;
+	width: 100%;
+	height: 8vh;
+}
+#div1a{
+	width: 50%;
+	height: 8vh;
+}
+#div1b{
+	width: 50%;
+	height: 8vh;
+}
+#logo{
+	width: 15%;
+	height: 8vh;
+}
+#icones{
+	margin-top: 1vh;
+	margin-left: 84vh;
+	width: 14%;
+	height: 8vh;
+}
+#div2{
+	margin-left: 4vh;
+	margin-right: 4vh;
+	width: 100%;
+	height: 12vh;
+}
+.img2{
+	margin-top: 1vh;
+	width: 100%;
+	height: 10vh;
+	background-color: grey;
+}
+#div3{
+	width: 20%;
+	height: 81vh;
+}
+.imglateral{
+	margin-left: 4vh;
+	width: 85%;
+	height: 83vh;
+}
+#lateral{
+	width: 92%;
+	height: 83vh;
+}
+#div4{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 30vh;
+}
+#div4a{
+	width: 55%;
+	height: 30vh;
+}
+
+#div4b{
+	width: 45%;
+	height: 30vh;
+
+}
+#div5{
+	width: 40%;
+	height: 30vh;
+}
+#div6container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 50vh;
+}
+.div6{
+	width: 100%;
+	height: 10vh;
+}
+.img{
+	margin-top: 2vh;
+	float: left;
+	width: 28%;
+	height: 15vh;
+}
+.teste{
+	margin-top: 1.5vh;
+	margin-left: 8.5vh;
+	height: 15vh;
+	width: 60%;
+	/* background-color: yellow; */
+}
+.teste2{
+	margin-top: 1.5vh;
+	margin-left: 0vh;
+	height: 15vh;
+	width: 98%;
+	/* background-color: yellow; */
+}
+.texto{
+	margin-top: 2vh;
+	float: left;
+	width: 70%;
+	height: 15vh;
+}
+.imagens{
+	width: 100%;
+	height: 15vh;
+}
+img{
+	width: 60%;
+	height: 30vh;
+}
+h1{
+	text-align: justify;
+	font-size: 19px;
+	font-family: "MADE TOMMY REGULAR", sans-serif;
+}
+#destaque{
+	margin-right: 7vh;
+	margin-left: 8.5vh;
+	text-align: justify;
+	font-size: 20px;
+	font-family: "MADE TOMMY REGULAR", sans-serif;
+}
+#estadio{
+	width: 94.5%;
+	height: 30vh;
+}
+#anuncio{
+	width: 100%;
+	height: 10vh;
+}
+@media (max-width: 700px){.container{
+	width: 90%;
+	margin-left: 2vh;
+}
+#div3{
+	display: none;
+}
+.img2{
+	margin-bottom: 2vh;
+	margin-left: 0vh;
+	height: 6vh;
+	width: 100%;
+}
+#anuncio{
+	margin-left: 0vh;
+	height: 7vh;
+	width: 100%;
+}
+#div4{
+	width: 100%;
+	height: 30vh;
+}
+#destaque{
+	height: 22vh;
+	margin: 0vh;
+	text-align: justify;
+	font-size: 17.5px;
+	font-family: "MADE TOMMY REGULAR", sans-serif;
+}
+#estadio{
+	width: 100%;
+	height: 20vh;
+}
+#div4a{
+	width: 100%;
+	height: 16vh;
+	margin-top: 2vh;
+}
+#div4b{
+	text-align: right;
+	width: 100%;
+	height: 22vh;
+}
+#div1{
+	margin: 0;
+	width: 100%;
+	height: 5vh;
+}
+#div2{
+	margin: 0vh;
+	margin-top: 1vh;
+	width: 100%;
+	height: 7vh;
+}
+#logo{
+	width: 50%;
+	height: 7vh;
+}
+#icones{
+	margin: 0vh ;
+	margin-left: 10vh;
+	width: 50%;
+	height: 7vh;
+}
+.div6{
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0;
+	height: 13vh;
+}
+.teste{
+	height: 11vh;
+	width: 100%;
+	margin: 0;
+}
+.imagens{
+	height: 10vh;
+	width: 100%;
+}
+h1{
+	height: 14vh;
+	margin-left: 1vh;
+	margin-bottom: 0;
+	margin-right: 0vh;
+	margin-top:0; 
+	font-size: 1.8vh;
+}
+.teste2{
+	height: 11vh;
+	width: 100%;
+	margin: 0;
+}
+.img{
+	margin-top: 0vh;
+	width: 30%;
+	height: 11vh;
+}
+.texto{
+	margin-top: 0vh;
+	height: 18vh;
+}
+#div6container{
+	height: 50vh;
+}
